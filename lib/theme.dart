@@ -9,7 +9,8 @@ Color greenColor32 = Color(0xff3D6670);
 Color disableColor3 = Color(0xff94AFB6);
 Color blueColor3 = Color(0xff53B2FC);
 Color greyColor3 = Color(0xff6C757D);
-Color blackColor3 = Color(0xff212529);
+Color blackColor31 = Color(0xff6D6D6D);
+Color blackColor32 = Color(0xff212529);
 
 Color blackColor21 = Color(0xff202237);
 Color blackColor22 = Color(0xff262626);
