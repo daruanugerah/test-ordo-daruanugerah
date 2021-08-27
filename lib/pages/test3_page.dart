@@ -53,9 +53,14 @@ class Test3Page extends StatelessWidget {
           children: [
             Row(
               children: [
-                Image.asset(
-                  'assets/icon-back-orange.png',
-                  width: 20,
+                GestureDetector(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Image.asset(
+                    'assets/icon-back-orange.png',
+                    width: 20,
+                  ),
                 ),
                 SizedBox(
                   width: 22,
