@@ -9,6 +9,8 @@ class Test2Page extends StatelessWidget {
   Widget build(BuildContext context) {
     Widget bottomNavBar() {
       return BottomNavigationBar(
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.white,
         elevation: 0,

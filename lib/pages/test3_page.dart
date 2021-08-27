@@ -10,6 +10,8 @@ class Test3Page extends StatelessWidget {
   Widget build(BuildContext context) {
     Widget bottomNavBar() {
       return BottomNavigationBar(
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
         backgroundColor: Colors.white,
         elevation: 0,
         items: [
