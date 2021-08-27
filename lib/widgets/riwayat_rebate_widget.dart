@@ -24,6 +24,7 @@ class RiwayatRebateWidget extends StatelessWidget {
                 width: 12,
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     _riwayatRebateModel.id,
