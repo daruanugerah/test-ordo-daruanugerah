@@ -287,6 +287,7 @@ class Test3Page extends StatelessWidget {
               height: 10,
             ),
             ListView.builder(
+              physics: ScrollPhysics(),
               shrinkWrap: true,
               scrollDirection: Axis.vertical,
               itemCount: mockDaftarRebate.length,
@@ -331,6 +332,7 @@ class Test3Page extends StatelessWidget {
               height: 19,
             ),
             ListView.builder(
+              physics: ScrollPhysics(),
               shrinkWrap: true,
               scrollDirection: Axis.vertical,
               itemCount: mockRiwayatRebate.length,
