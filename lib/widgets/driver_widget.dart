@@ -6,7 +6,7 @@ class DriverWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 27),
-      margin: EdgeInsets.only(bottom: 30),
+      margin: EdgeInsets.only(bottom: 35),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
