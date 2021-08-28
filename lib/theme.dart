@@ -22,6 +22,7 @@ Color disableColor1 = Color(0xff979696);
 Color textColor1 = Color(0xff8A7F7F);
 
 TextStyle textStyle = GoogleFonts.poppins();
+TextStyle textStyleInter = GoogleFonts.inter();
 
 FontWeight light = FontWeight.w300;
 FontWeight medium = FontWeight.w500;
