@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_ordo/pages/test1_page.dart';
 import 'package:test_ordo/pages/test2_page.dart';
 import 'package:test_ordo/pages/test3_page.dart';
 import 'package:test_ordo/theme.dart';
@@ -43,7 +44,14 @@ class MainPage extends StatelessWidget {
               height: 58,
               width: double.infinity,
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Test1Page(),
+                    ),
+                  );
+                },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.black,
                   shape: RoundedRectangleBorder(
